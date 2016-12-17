@@ -1,9 +1,16 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
 * {
-    font-family: "Roboto", "Noto Sans TC";
-    box-sizing: border-box;
-}
+  font-family: "Roboto", "Noto Sans TC";
+             box-sizing: border-box;
+        }
 
 body,
 h1,
@@ -17,23 +24,22 @@ p {
     padding: 0;
 }
 
-img {
-    width: 100%;
+ img {
+     width: 100%;
     border: 0;
-    vertical-align: top;
-}
+     vertical-align: top;}
 
-.primary {
-    background-color: #007691;
-    color: #e6e6e6;
-}
+ .primary {
+            background-color: #007691;
+            color: #e6e6e6;
+        }
 
 .full-width {
-    width: 100%;
-}
+        width: 100%;
+        }
 
 .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
+            content: "";
+            display: block;
+            clear: both;
+        }
