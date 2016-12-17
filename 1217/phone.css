@@ -1,0 +1,99 @@
+@media screen and (min-width:480px)
+    .fixed-width{
+        width: 100%;
+}
+    
+.col-4{
+    width: 100%;
+    padding: 20px;
+}
+
+col-2{
+    width: 100%;
+}
+
+nav .logo{
+
+    width: 150px;
+    height: 100px;
+    background-color: #bbb;
+}
+
+nav .menu{
+}
+
+nav .menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav . menu li{
+    list-style: none;
+    border-bottom: 1px solid #888;
+}
+
+nav .menu a{
+    background-color: #fff;
+    display: block;
+    line-height: 75px;
+   text-decoration: none;
+    color:#eee;
+    font-size: 14px;
+}
+header{
+    background-image: url(images/bg.jpg)
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+header .content h1{
+    
+    font-size: 48px;
+    letter-spacing:  4px;
+}
+
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about .title h2::before{
+    content:"A";
+    position: absolute;
+    display: block;
+    width: 100%;
+    font-size: 160px;
+    top: -27px;
+    color: rgba(255, 255, 255, .15)
+}
+
+#about .col-4{
+    text-align: center;
+}
+
+#about .col-4{
+    text-align: center;
+}
+
+#about .col-4 h3{
+    padding-top: 20px;
+    
+}
+
+#service .wrapper:nth-of-type(2) .col-2:nth-of-type(2)  {
+    background-color: #fff;
+    color: #333;
+    display:  inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+#service .wrapper: nth-of- type(2) .col-2: nth-of-type(2) .content{
+    display: inline-block;
+    vertical-align: middle;
+    font-size:  16px;
+}
